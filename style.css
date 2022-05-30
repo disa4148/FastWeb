@@ -1,0 +1,426 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: 'NanumGothic', sans-serif;
+	overflow: scroll;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+	background-color:#252525;
+	height: 43px;
+	padding-top: 10px;
+	font: 24px 'NanumGothiс', sans-serif;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #C4C4C4;
+}
+
+.intro {
+	width: 100%;
+	height: 100vh;
+	background: url(img/123.png) center no-repeat;
+	-webkit-background-size:  cover;
+	background-size: cover;
+}
+
+.blin {
+	padding-left: 150px;
+	padding-top: 20px;
+	position: absolute;
+}
+
+.lox {
+	position: relative;
+	left: 110px;
+	bottom: 72px;
+	font-size: 25px;
+}
+.smesha {
+	color: #F3F242;
+	font-weight: bold;
+}
+
+.riki {
+	color: white;
+	font-weight: bold;
+}
+
+.number {
+	position: absolute;
+	right: -1450px;
+	bottom: 80px;
+	font-size: 20px;
+	color: white;
+	font-family: cursive;
+}
+
+.number p {
+	color: #383838;
+	text-decoration: underline;
+	margin: 0;
+	font-family: cursive;
+}
+
+.linee {
+	text-align: center;
+	padding-top: 220px;
+	margin: 0px;
+}
+
+.yslugi {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.web {
+	text-align: center;
+	color: #EBEBEB;
+	font-size: 25px;
+	font-family: Lucida Consol;
+	margin: 0px;
+}
+
+.button {
+	color: white;
+	font-size: 27px;
+	background: linear-gradient(to left,
+	#FFAA00, #FFBF40,#FFAA00);
+	font-family: monospace;
+	display: flex;
+	flex-direction: row;
+	height: 60px;
+	width: 270px;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 220px;
+	border-radius: 20px;
+}
+.aye {
+	text-decoration: none;
+}
+
+.twoblock {
+	height: 480px;
+}
+
+.heading {
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.workforme {
+	color: orange;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 45px;
+}
+
+.speed {
+	font-size: 17px;
+	padding-top: 15px;
+}
+.speed h2 {
+	display: inline;
+}
+
+#speedh {
+	margin-left: 355px;
+}
+#studyh {
+	margin-left: 325px;
+}
+#portfh {
+	margin-left: 314px;
+}
+
+.texta {
+	font-size: 18px;
+	color: #5F5D5D;
+}
+
+.texta h5 {
+	display: inline;
+}
+
+#lorem1 {
+	position: absolute;
+	left: 315px;
+	text-align: center;
+}
+
+#lorem2 {
+	position: absolute;
+	left: 817px;
+	text-align: center;
+}
+
+#lorem3 {
+	position: absolute;
+	left: 71%;
+	text-align: center;
+}
+
+.threeblock {
+	background-color: #DDDDDD;
+	height: 420px;
+}
+
+.how {
+	padding-top: 60px;
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+}
+.how span {
+	color: orange;
+}
+
+.pictures2 {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+
+}
+
+.pictures2 img {
+	margin-right: 100px;
+}
+
+.invite {
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+.invite h2 {
+	display: inline;
+}
+
+#inv {
+	padding-left: 238px;
+}
+
+#brif {
+	padding-left: 200px;
+}
+
+#ytve {
+	padding-left: 177px;
+}
+
+#sait {
+	padding-left: 210px;
+}
+
+.texta2 h5 {
+	display: inline;
+	position: absolute;
+	text-align: center;
+	color: #5F5D5D;
+	font-size: 16px;
+}
+
+#tex1 {
+	left: 210px;
+}
+
+#tex2 {
+	left: 603px;
+}
+
+#tex3 {
+	left: 955px;
+}
+
+#tex4 {
+	left: 1335px;
+}
+
+.fourblock {
+	background-color: #21201E;
+	border-bottom: solid 7px #888888;
+	border-top: solid 7px #888888;
+	height: 470px;
+}
+
+.phoone {
+padding-left: 10%;
+padding-bottom: 10px;
+position: relative;
+bottom: 30px;
+}
+
+.alltext {
+	position: relative;
+	left: 35%;
+	bottom: 100%;
+	width: 500px;
+}
+
+.present {
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+.mobilepril {
+	position: relative;
+	left: 40%;
+	bottom: 105%;
+	font-size: 22px;
+	color: orange;
+	font-weight: bold;
+	width: 350px;
+}
+
+.ydobno {
+	position: relative;
+	left: 35%;
+	bottom: 97%;
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+	width: 300px;
+}
+
+.loreeem {
+	position: relative;
+	left: 35%;
+	bottom: 97%;
+	color: #888888;
+	font-family: Arial Black;
+	font-size: 14px;
+	width: 700px;
+
+}
+
+.button2 {
+	position: relative;
+	left: 35%;
+	bottom: 92%;
+	border: 3px solid #BF8A30;
+	border-radius: 40px;
+	color: #BF8A30;
+	outline: none;
+  text-decoration: none;
+  font-size: 27px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.fiveblock {
+	background-color: #F5F5F5;
+	height: 400px;
+}
+
+.whosaid {
+	text-align: center;
+	padding-top: 40px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.res {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.feedback {
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 30%;
+	border: 2px solid #AEAEAE;
+	width: 587px;
+	border-radius: 20px;
+	background-color: white;
+	padding-left: 160px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.feedback p {
+	color: #5D5D5D;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 16px;
+}
+
+.polina {
+position: relative;
+bottom: 220px;
+left: 450px;
+}
+
+.left {
+ position: relative;
+ bottom: 80%;
+ left: 5%;
+}
+
+.rightt {
+position: relative;
+bottom: 80%;
+left: 58%;
+}
+
+.dots {
+position: relative;
+bottom: 47%;
+left: 27%;
+}
+
+.footer {
+	background-color: #21201E;
+	height: 145px;
+}
+
+.aaaa {
+	padding-top: 30px;
+	padding-left: 20%;
+}
+
+.fotgl {
+	color: white;
+	position: relative;
+	left: 25%;
+	bottom: 70px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.fot1 {
+	color: yellow;
+}
+
+.fooot {
+	color: #AEAEAE;
+	position: relative;
+	left: 45%;
+	bottom: 140px;
+	line-height: 25px;
+}
+
+.fooot a{
+position: relative;
+left: 19%;
+bottom: 20px;
+color: #AEAEAE;
+}
+
